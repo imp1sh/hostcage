@@ -10,19 +10,20 @@
 	"dhcp":"on"
 	  },
   "pkgs": [
-	"nginx-full",
-	"php74 php74-extensions",
-	"php74-composer",
-	"php74-gd",
-	"php74-json",
-	"php74-mbstring",
-	"php74-mysqli",
-	"php74-opcache",
-	"php74-openssl",
-	"ImageMagick6",
-	"php74-pecl-memcache",
-	"php74-xml",
-	"php74-zip"
+	"www/nginx-full",
+	"www/php73-opcache",
+	"lang/php73",
+	"lang/php73-extensions",
+	"graphics/php73-gd",
+	"graphics/ImageMagick6",
+	"devel/php73-json",
+	"devel/php-composer",
+	"converters/php73-mbstring",
+	"database/php73-mysqli",
+	"databases/php-memcache",
+	"security/php73-openssl",
+	"textproc/php73-xml",
+	"archivers/php73-zip"
 	  ],
   "packagesite": "http://pkg.FreeBSD.org/FreeBSD:12:amd64/quarterly",
   "fingerprints": {
